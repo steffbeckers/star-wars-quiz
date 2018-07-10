@@ -18,7 +18,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "answers": {
+      "type": "hasMany",
+      "model": "Answer",
+      "foreignKey": ""
+    },
+    "character": {
+      "type": "belongsTo",
+      "model": "Character",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

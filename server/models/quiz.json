@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "questions": {
+      "type": "hasAndBelongsToMany",
+      "model": "Question",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
