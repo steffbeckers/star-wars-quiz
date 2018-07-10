@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Quiz": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Question": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Answer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Character": {
+    "dataSource": "db",
+    "public": true
   }
 }
