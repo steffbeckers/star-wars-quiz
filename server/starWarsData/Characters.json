@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Yoda",
+    "portrayal": "Frank Oz",
+    "description": "The deceased former Grand Master of the Jedi, and Luke's wise former mentor, who appears as a Force-ghost."
+  },
+  {
+    "name": "Chewbacca",
+    "portrayal": "Peter Mayhew",
+    "description": "Han Solo's Wookiee partner and co-pilot of the Millennium Falcon."
+  },
+  {
+    "name": "Darth Vader",
+    "portrayal": "David Prowse",
+    "description": "The Chosen One"
+  },
+  {
+    "name": "Luke Skywalker",
+    "portrayal": "Mark Hamill",
+    "description": "Jedi whose coming of age and rise as a Jedi are portrayed in the original Star Wars trilogy. Son of Anakin Skywalker and Padmé Amidala, and Leia Organa's twin brother."
+  },
+  {
+    "name": "BB-8",
+    "portrayal": "Dave Chapman and Brian Herring",
+    "description": "Poe Dameron's astromech droid in The Force Awakens and The Last Jedi."
+  }
+]

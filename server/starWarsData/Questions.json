@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Which of these Jedi are not related to any of the others?",
+    "sortNumber": 1,
+    "characterId": 1
+  },
+  {
+    "title": "What was Order 66?",
+    "sortNumber": 2,
+    "characterId": 3
+  },
+  {
+    "title": "Han Solo (who was not a Force user) and Leia Organa, who is sensitive to the Force and a member of the Skywalker family) had a Force-wielding child. What was the child's name?",
+    "sortNumber": 3,
+    "characterId": 4
+  },
+  {
+    "title": "What is the name of a Jedi youngling who trains under a Jedi knight?",
+    "sortNumber": 4,
+    "characterId": 5
+  },
+  {
+    "title": "What is the enemy of most Jedi? (Hint: The three 'prequel' movies — Episodes I, II and III — talk about them extensively.)",
+    "sortNumber": 5,
+    "characterId": 1
+  },
+  {
+    "title": "What is the highest rank in the Jedi High Council?",
+    "sortNumber": 6,
+    "characterId": 3
+  },
+  {
+    "title": "There was something different about Kylo Ren's lightsaber, as seen in 'The Force Awakens' (2015). What was it?",
+    "sortNumber": 7,
+    "characterId": 4
+  }
+]

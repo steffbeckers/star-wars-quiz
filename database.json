@@ -1,0 +1,73 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Quiz": 2,
+    "Question": 8,
+    "QuizQuestion": 2,
+    "Answer": 29,
+    "Character": 6
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Quiz": {
+      "1": "{\"title\":\"Are You a Jedi?\",\"id\":1}"
+    },
+    "Question": {
+      "1": "{\"title\":\"Which of these Jedi are not related to any of the others?\",\"sortNumber\":1,\"characterId\":1,\"id\":1}",
+      "2": "{\"title\":\"What was Order 66?\",\"sortNumber\":2,\"characterId\":3,\"id\":2}",
+      "3": "{\"title\":\"Han Solo (who was not a Force user) and Leia Organa, who is sensitive to the Force and a member of the Skywalker family) had a Force-wielding child. What was the child's name?\",\"sortNumber\":3,\"characterId\":4,\"id\":3}",
+      "4": "{\"title\":\"What is the name of a Jedi youngling who trains under a Jedi knight?\",\"sortNumber\":4,\"characterId\":5,\"id\":4}",
+      "5": "{\"title\":\"What is the enemy of most Jedi? (Hint: The three 'prequel' movies — Episodes I, II and III — talk about them extensively.)\",\"sortNumber\":5,\"characterId\":1,\"id\":5}",
+      "6": "{\"title\":\"What is the highest rank in the Jedi High Council?\",\"sortNumber\":6,\"characterId\":3,\"id\":6}",
+      "7": "{\"title\":\"There was something different about Kylo Ren's lightsaber, as seen in 'The Force Awakens' (2015). What was it?\",\"sortNumber\":7,\"characterId\":4,\"id\":7}"
+    },
+    "QuizQuestion": {
+      "1": "{\"quizId\":1,\"questionId\":1,\"id\":1}"
+    },
+    "Answer": {
+      "1": "{\"title\":\"Obi-Wan Kenobi\",\"correct\":true,\"sortNumber\":1,\"questionId\":1,\"id\":1}",
+      "2": "{\"title\":\"Darth Vader\",\"correct\":false,\"sortNumber\":2,\"questionId\":1,\"id\":2}",
+      "3": "{\"title\":\"Leia Organa\",\"correct\":false,\"sortNumber\":3,\"questionId\":1,\"id\":3}",
+      "4": "{\"title\":\"Luke Skywalker\",\"correct\":false,\"sortNumber\":4,\"questionId\":1,\"id\":4}",
+      "5": "{\"title\":\"An event that wiped out many Jedi after the Clone Wars.\",\"correct\":true,\"sortNumber\":1,\"questionId\":2,\"id\":5}",
+      "6": "{\"title\":\"An initiation ceremony all Jedi performed.\",\"correct\":false,\"sortNumber\":2,\"questionId\":2,\"id\":6}",
+      "7": "{\"title\":\"The code name of the operation to steal the Death Star plans.\",\"correct\":false,\"sortNumber\":3,\"questionId\":2,\"id\":7}",
+      "8": "{\"title\":\"The command that blew up the planet Alderaan.\",\"correct\":false,\"sortNumber\":4,\"questionId\":2,\"id\":8}",
+      "9": "{\"title\":\"Rey\",\"correct\":false,\"sortNumber\":1,\"questionId\":3,\"id\":9}",
+      "10": "{\"title\":\"Anakin Skywalker\",\"correct\":false,\"sortNumber\":2,\"questionId\":3,\"id\":10}",
+      "11": "{\"title\":\"Darth Maul\",\"correct\":false,\"sortNumber\":3,\"questionId\":3,\"id\":11}",
+      "12": "{\"title\":\"Kylo Ren\",\"correct\":true,\"sortNumber\":4,\"questionId\":3,\"id\":12}",
+      "13": "{\"title\":\"Padawan\",\"correct\":true,\"sortNumber\":1,\"questionId\":4,\"id\":13}",
+      "14": "{\"title\":\"Paploo\",\"correct\":false,\"sortNumber\":2,\"questionId\":4,\"id\":14}",
+      "15": "{\"title\":\"Palpatine\",\"correct\":false,\"sortNumber\":3,\"questionId\":4,\"id\":15}",
+      "16": "{\"title\":\"Padmé\",\"correct\":false,\"sortNumber\":4,\"questionId\":4,\"id\":16}",
+      "17": "{\"title\":\"The Sith\",\"correct\":true,\"sortNumber\":1,\"questionId\":5,\"id\":17}",
+      "18": "{\"title\":\"The Sebulba\",\"correct\":false,\"sortNumber\":2,\"questionId\":5,\"id\":18}",
+      "19": "{\"title\":\"The Sabé\",\"correct\":false,\"sortNumber\":3,\"questionId\":5,\"id\":19}",
+      "20": "{\"title\":\"The Saché\",\"correct\":false,\"sortNumber\":4,\"questionId\":5,\"id\":20}",
+      "21": "{\"title\":\"Jedi Commander\",\"correct\":false,\"sortNumber\":1,\"questionId\":6,\"id\":21}",
+      "22": "{\"title\":\"Jedi Master\",\"correct\":false,\"sortNumber\":2,\"questionId\":6,\"id\":22}",
+      "23": "{\"title\":\"Jedi Knight\",\"correct\":false,\"sortNumber\":3,\"questionId\":6,\"id\":23}",
+      "24": "{\"title\":\"Grand Master\",\"correct\":true,\"sortNumber\":4,\"questionId\":6,\"id\":24}",
+      "25": "{\"title\":\"It was shaped like a cross.\",\"correct\":true,\"sortNumber\":1,\"questionId\":7,\"id\":25}",
+      "26": "{\"title\":\"It was extremely long.\",\"correct\":false,\"sortNumber\":2,\"questionId\":7,\"id\":26}",
+      "27": "{\"title\":\"It shone in rainbow colors.\",\"correct\":false,\"sortNumber\":3,\"questionId\":7,\"id\":27}",
+      "28": "{\"title\":\"It was invisible to all but Ren himself.\",\"correct\":false,\"sortNumber\":4,\"questionId\":7,\"id\":28}"
+    },
+    "Character": {
+      "1": "{\"name\":\"Yoda\",\"portrayal\":\"Frank Oz\",\"description\":\"The deceased former Grand Master of the Jedi, and Luke's wise former mentor, who appears as a Force-ghost.\",\"id\":1}",
+      "2": "{\"name\":\"Chewbacca\",\"portrayal\":\"Peter Mayhew\",\"description\":\"Han Solo's Wookiee partner and co-pilot of the Millennium Falcon.\",\"id\":2}",
+      "3": "{\"name\":\"Darth Vader\",\"portrayal\":\"David Prowse\",\"description\":\"The Chosen One\",\"id\":3}",
+      "4": "{\"name\":\"Luke Skywalker\",\"portrayal\":\"Mark Hamill\",\"description\":\"Jedi whose coming of age and rise as a Jedi are portrayed in the original Star Wars trilogy. Son of Anakin Skywalker and Padmé Amidala, and Leia Organa's twin brother.\",\"id\":4}",
+      "5": "{\"name\":\"BB-8\",\"portrayal\":\"Dave Chapman and Brian Herring\",\"description\":\"Poe Dameron's astromech droid in The Force Awakens and The Last Jedi.\",\"id\":5}"
+    }
+  }
+}
